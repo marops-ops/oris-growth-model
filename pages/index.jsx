@@ -248,11 +248,8 @@ export default function OrisGrowthModel() {
           <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: 8, letterSpacing: "2px", color: C.lightSage, textTransform: "uppercase", marginBottom: 4 }}>Amidays · Oris Dental</div>
           <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: 20, color: C.white, fontWeight: 400 }}>Vekstmodell</div>
         </div>
-        <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-          <div style={{ width: 28, height: 28, background: C.white, display: "flex", alignItems: "center", justifyContent: "center", borderRadius: 4 }}>
-            <span style={{ fontFamily: "Montserrat, sans-serif", fontSize: 9, fontWeight: 700, color: C.nearBlack }}>AD</span>
-          </div>
-          <span style={{ fontFamily: "Montserrat, sans-serif", fontSize: 9, color: C.lightSage, letterSpacing: "2px" }}>AMIDAYS</span>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <img src="/logo.png" alt="Amidays" style={{ height: 36, width: "auto", display: "block" }} />
         </div>
       </div>
 
